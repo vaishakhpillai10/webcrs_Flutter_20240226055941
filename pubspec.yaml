@@ -1,0 +1,455 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/rectangle-1.png
+    - assets/page-1/images/settingline.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/group-99.png
+    - assets/page-1/images/wifi-LvK.png
+    - assets/page-1/images/ellipse-16.png
+    - assets/page-1/images/rectangle-1-9Rq.png
+    - assets/page-1/images/rectangle-1-TDZ.png
+    - assets/page-1/images/search.png
+    - assets/page-1/images/cell.png
+    - assets/page-1/images/union.png
+    - assets/page-1/images/sort-list.png
+    - assets/page-1/images/rectangle-1-78B.png
+    - assets/page-1/images/rectangle-1-a4w.png
+    - assets/page-1/images/emoji.png
+    - assets/page-1/images/cell-o9q.png
+    - assets/page-1/images/group-96.png
+    - assets/page-1/images/keys-icon.png
+    - assets/page-1/images/wifi-5Jf.png
+    - assets/page-1/images/chat-2.png
+    - assets/page-1/images/vector-25.png
+    - assets/page-1/images/loupe-1.png
+    - assets/page-1/images/keys-icon-9z7.png
+    - assets/page-1/images/vector-25-Qhu.png
+    - assets/page-1/images/cell-YaK.png
+    - assets/page-1/images/cell-s7d.png
+    - assets/page-1/images/wifi-hF5.png
+    - assets/page-1/images/auto-group-u22b.png
+    - assets/page-1/images/cell-i15.png
+    - assets/page-1/images/vector-23.png
+    - assets/page-1/images/vector-26.png
+    - assets/page-1/images/cell-Evs.png
+    - assets/page-1/images/expandup.png
+    - assets/page-1/images/cell-eZu.png
+    - assets/page-1/images/wifi-JLw.png
+    - assets/page-1/images/keys-icon-EHm.png
+    - assets/page-1/images/group-95.png
+    - assets/page-1/images/wifi-DF5.png
+    - assets/page-1/images/rectangle-1-wnw.png
+    - assets/page-1/images/emoji-2b9.png
+    - assets/page-1/images/vector-24.png
+    - assets/page-1/images/loupe-1-VjD.png
+    - assets/page-1/images/chat-1.png
+    - assets/page-1/images/rectangle-1-TJw.png
+    - assets/page-1/images/filteralt.png
+    - assets/page-1/images/sort-list-h1y.png
+    - assets/page-1/images/search-YcF.png
+    - assets/page-1/images/ellipse-12-bg.png
+    - assets/page-1/images/keys-icon-aJb.png
+    - assets/page-1/images/vector-28.png
+    - assets/page-1/images/cell-WwZ.png
+    - assets/page-1/images/group-101.png
+    - assets/page-1/images/wifi-D4b.png
+    - assets/page-1/images/userfilladd.png
+    - assets/page-1/images/keys-icon-8M5.png
+    - assets/page-1/images/setting-lines-1.png
+    - assets/page-1/images/emoji-MWX.png
+    - assets/page-1/images/filteralt-qkT.png
+    - assets/page-1/images/vector-26-bjd.png
+    - assets/page-1/images/searchduotoneline.png
+    - assets/page-1/images/time.png
+    - assets/page-1/images/rectangle-1-3vP.png
+    - assets/page-1/images/daterange.png
+    - assets/page-1/images/green-tea-1.png
+    - assets/page-1/images/cell-v7y.png
+    - assets/page-1/images/vector-22.png
+    - assets/page-1/images/union-v6b.png
+    - assets/page-1/images/ellipse-14-bg.png
+    - assets/page-1/images/wifi-CuM.png
+    - assets/page-1/images/ellipse-14-bg-wc3.png
+    - assets/page-1/images/keys-icon-hbD.png
+    - assets/page-1/images/vector-9.png
+    - assets/page-1/images/phonelight.png
+    - assets/page-1/images/daterange-94j.png
+    - assets/page-1/images/time-btT.png
+    - assets/page-1/images/ellipse-1-bg.png
+    - assets/page-1/images/vector-27.png
+    - assets/page-1/images/user-2.png
+    - assets/page-1/images/group-98.png
+    - assets/page-1/images/viewlight.png
+    - assets/page-1/images/arrowdropdownbig.png
+    - assets/page-1/images/ellipse-3-bg.png
+    - assets/page-1/images/keys-icon-7zw.png
+    - assets/page-1/images/arrowdropdownbig-MuH.png
+    - assets/page-1/images/ellipse-22.png
+    - assets/page-1/images/vector-23-axo.png
+    - assets/page-1/images/wifi-MNX.png
+    - assets/page-1/images/daterange-1iP.png
+    - assets/page-1/images/group-70.png
+    - assets/page-1/images/rectangle-1-q8K.png
+    - assets/page-1/images/group-98-vsq.png
+    - assets/page-1/images/vector-25-gMD.png
+    - assets/page-1/images/group-81.png
+    - assets/page-1/images/group-91.png
+    - assets/page-1/images/filteralt-qFu.png
+    - assets/page-1/images/ellipse-25.png
+    - assets/page-1/images/arrowdropdownbig-uLj.png
+    - assets/page-1/images/cell-Td9.png
+    - assets/page-1/images/add.png
+    - assets/page-1/images/ellipse-11-bg.png
+    - assets/page-1/images/addring.png
+    - assets/page-1/images/ellipse-3-bg-xZu.png
+    - assets/page-1/images/group-80.png
+    - assets/page-1/images/arrowdropdownbig-tiT.png
+    - assets/page-1/images/ellipse-4-bg.png
+    - assets/page-1/images/group-89.png
+    - assets/page-1/images/ellipse-25-XxB.png
+    - assets/page-1/images/arrowdropdownbig-y3V.png
+    - assets/page-1/images/daterange-vUX.png
+    - assets/page-1/images/addring-HK5.png
+    - assets/page-1/images/keys-icon-CcP.png
+    - assets/page-1/images/ellipse-5-bg.png
+    - assets/page-1/images/daterange-k5u.png
+    - assets/page-1/images/rectangle-1-sRR.png
+    - assets/page-1/images/union-23R.png
+    - assets/page-1/images/group-87.png
+    - assets/page-1/images/message-1.png
+    - assets/page-1/images/daterange-dJ7.png
+    - assets/page-1/images/ellipse-12-bg-mfD.png
+    - assets/page-1/images/star-1.png
+    - assets/page-1/images/ellipse-16-bg.png
+    - assets/page-1/images/vector-31.png
+    - assets/page-1/images/cell-QYw.png
+    - assets/page-1/images/ellipse-14-bg-qAP.png
+    - assets/page-1/images/ellipse-12-bg-adm.png
+    - assets/page-1/images/wifi-9Ry.png
+    - assets/page-1/images/vector-9-cKZ.png
+    - assets/page-1/images/datetoday.png
+    - assets/page-1/images/vector-24-idV.png
+    - assets/page-1/images/addsquarefill.png
+    - assets/page-1/images/ellipse-11-bg-mEw.png
+    - assets/page-1/images/ellipse-15-bg.png
+    - assets/page-1/images/ellipse-17-bg.png
+    - assets/page-1/images/vector-24-LS3.png
+    - assets/page-1/images/bookcheck.png
+    - assets/page-1/images/addring-DZy.png
+    - assets/page-1/images/vector-34.png
+    - assets/page-1/images/keys-icon-Gk7.png
+    - assets/page-1/images/group-86.png
+    - assets/page-1/images/expandup-Kuh.png
+    - assets/page-1/images/addsquarefill-ES3.png
+    - assets/page-1/images/arrowdropdownbig-xsq.png
+    - assets/page-1/images/vector-36.png
+    - assets/page-1/images/vector-33.png
+    - assets/page-1/images/filteralt-yt3.png
+    - assets/page-1/images/arrowdropdownbig-XPm.png
+    - assets/page-1/images/arrowdropdownbig-iz3.png
+    - assets/page-1/images/group-90.png
+    - assets/page-1/images/wifi-7mq.png
+    - assets/page-1/images/ellipse-25-VGb.png
+    - assets/page-1/images/datetoday-q5q.png
+    - assets/page-1/images/vector-35.png
+    - assets/page-1/images/arrowdropdownbig-5fd.png
+    - assets/page-1/images/rectangle-4150.png
+    - assets/page-1/images/ellipse-18.png
+    - assets/page-1/images/arrowdropdownbig-4TZ.png
+    - assets/page-1/images/rectangle-50.png
+    - assets/page-1/images/vector-31-Hvo.png
+    - assets/page-1/images/group-80-XFM.png
+    - assets/page-1/images/group-85.png
+    - assets/page-1/images/vector-39.png
+    - assets/page-1/images/wifi-2FR.png
+    - assets/page-1/images/cell-AcX.png
+    - assets/page-1/images/group-80-xXh.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/bookcheck-dKM.png
+    - assets/page-1/images/vector-37.png
+    - assets/page-1/images/cell-GvB.png
+    - assets/page-1/images/ellipse-25-GLP.png
+    - assets/page-1/images/checkring.png
+    - assets/page-1/images/arrowdropdownbig-DYs.png
+    - assets/page-1/images/arrowdropdownbig-vBZ.png
+    - assets/page-1/images/group-84.png
+    - assets/page-1/images/arrowdropdownbig-kt7.png
+    - assets/page-1/images/expandup-nUo.png
+    - assets/page-1/images/wifi-erj.png
+    - assets/page-1/images/datetoday-C9V.png
+    - assets/page-1/images/checkring-PLj.png
+    - assets/page-1/images/rectangle-1-8Vd.png
+    - assets/page-1/images/wifi-hPu.png
+    - assets/page-1/images/navigatelight.png
+    - assets/page-1/images/vector-40.png
+    - assets/page-1/images/arrowdropdownbig-NdM.png
+    - assets/page-1/images/happy.png
+    - assets/page-1/images/bookduotone.png
+    - assets/page-1/images/addring-McK.png
+    - assets/page-1/images/rectangle-1-sPV.png
+    - assets/page-1/images/rectangle-1-sbm.png
+    - assets/page-1/images/auto-group-syik.png
+    - assets/page-1/images/rectangle-1-W5V.png
+    - assets/page-1/images/group-61.png
+    - assets/page-1/images/group-79.png
+    - assets/page-1/images/time-TvF.png
+    - assets/page-1/images/cell-jMy.png
+    - assets/page-1/images/arrowrightlight.png
+    - assets/page-1/images/expandup-qUs.png
+    - assets/page-1/images/rectangle-1-zPh.png
+    - assets/page-1/images/ellipse-91.png
+    - assets/page-1/images/bell.png
+    - assets/page-1/images/arrowdropdownbig-XUT.png
+    - assets/page-1/images/group-75.png
+    - assets/page-1/images/rectangle-1-B1y.png
+    - assets/page-1/images/group-82.png
+    - assets/page-1/images/cell-tX1.png
+    - assets/page-1/images/addring-2YP.png
+    - assets/page-1/images/rectangle-75.png
+    - assets/page-1/images/vector-22-bzF.png
+    - assets/page-1/images/group-85-e8P.png
+    - assets/page-1/images/wifi-LQX.png
+    - assets/page-1/images/group-79-D8B.png
+    - assets/page-1/images/group-76.png
+    - assets/page-1/images/auto-group-5yv7.png
+    - assets/page-1/images/group-80-yc3.png
+    - assets/page-1/images/ellipse-92.png
+    - assets/page-1/images/arrowdropdownbig-F7D.png
+    - assets/page-1/images/group-78.png
+    - assets/page-1/images/expanddown.png
+    - assets/page-1/images/group-77.png
+    - assets/page-1/images/closering.png
+    - assets/page-1/images/expanddown-usu.png
+    - assets/page-1/images/group-76-3VR.png
+    - assets/page-1/images/group-81-3b5.png
+    - assets/page-1/images/group-80-29V.png
+    - assets/page-1/images/cell-u83.png
+    - assets/page-1/images/bookcheck-p3y.png
+    - assets/page-1/images/rectangle-1-ia3.png
+    - assets/page-1/images/arrowdropdownbig-3i7.png
+    - assets/page-1/images/auto-group-vq15.png
+    - assets/page-1/images/wifi-1t3.png
+    - assets/page-1/images/expandup-dnf.png
+    - assets/page-1/images/auto-group-yqif.png
+    - assets/page-1/images/addring-oZR.png
+    - assets/page-1/images/group-81-Frf.png
+    - assets/page-1/images/group-77-JjR.png
+    - assets/page-1/images/ellipse-66.png
+    - assets/page-1/images/rectangle-1-LfR.png
+    - assets/page-1/images/group-82-PF5.png
+    - assets/page-1/images/group-75-9Zh.png
+    - assets/page-1/images/group-61-srP.png
+    - assets/page-1/images/closering-ego.png
+    - assets/page-1/images/rectangle-1-i3h.png
+    - assets/page-1/images/expanddown-SkF.png
+    - assets/page-1/images/group-77-XZZ.png
+    - assets/page-1/images/cell-TRy.png
+    - assets/page-1/images/vector-23-9DH.png
+    - assets/page-1/images/rectangle-1-u35.png
+    - assets/page-1/images/group-78-vTH.png
+    - assets/page-1/images/wifi-f3D.png
+    - assets/page-1/images/rectangle-1-L9M.png
+    - assets/page-1/images/group-61-YET.png
+    - assets/page-1/images/addring-sz7.png
+    - assets/page-1/images/done.png
+    - assets/page-1/images/group-81-g7y.png
+    - assets/page-1/images/expanddown-z8P.png
+    - assets/page-1/images/group-75-GFZ.png
+    - assets/page-1/images/addring-9LK.png
+    - assets/page-1/images/group-80-Ymm.png
+    - assets/page-1/images/group-78-7rf.png
+    - assets/page-1/images/vector-10.png
+    - assets/page-1/images/group-79-Fqh.png
+    - assets/page-1/images/loupe-1-AJB.png
+    - assets/page-1/images/group-84-8Zm.png
+    - assets/page-1/images/group-81-5DR.png
+    - assets/page-1/images/rectangle-4185.png
+    - assets/page-1/images/group-75-BLK.png
+    - assets/page-1/images/group-78-TkB.png
+    - assets/page-1/images/group-76-b19.png
+    - assets/page-1/images/group-61-Nw1.png
+    - assets/page-1/images/rectangle-4181.png
+    - assets/page-1/images/group-82-tQf.png
+    - assets/page-1/images/rectangle-4178.png
+    - assets/page-1/images/rectangle-77.png
+    - assets/page-1/images/vector-24-zj9.png
+    - assets/page-1/images/wifi-bPD.png
+    - assets/page-1/images/expanddown-B7d.png
+    - assets/page-1/images/rectangle-4182.png
+    - assets/page-1/images/group-79-VTm.png
+    - assets/page-1/images/rectangle-78.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/group-80-Bsm.png
+    - assets/page-1/images/rectangle-4184.png
+    - assets/page-1/images/rectangle-1-mAf.png
+    - assets/page-1/images/vector-22-g8F.png
+    - assets/page-1/images/rectangle-84.png
+    - assets/page-1/images/price-tag.png
+    - assets/page-1/images/vector-23-4T9.png
+    - assets/page-1/images/vector-23-zrb.png
+    - assets/page-1/images/group-76-kqm.png
+    - assets/page-1/images/line-2.png
+    - assets/page-1/images/rectangle-99.png
+    - assets/page-1/images/expanddown-fnw.png
+    - assets/page-1/images/group-79-cy5.png
+    - assets/page-1/images/cell-P9q.png
+    - assets/page-1/images/group-61-jQK.png
+    - assets/page-1/images/filteralt-f4j.png
+    - assets/page-1/images/ellipse-94.png
+    - assets/page-1/images/group-75-xo9.png
+    - assets/page-1/images/expandup-5Aw.png
+    - assets/page-1/images/rectangle-90.png
+    - assets/page-1/images/rectangle-4176.png
+    - assets/page-1/images/group-76-Uym.png
+    - assets/page-1/images/group-77-3X5.png
+    - assets/page-1/images/group-82-GHM.png
+    - assets/page-1/images/group-80-KYT.png
+    - assets/page-1/images/rectangle-87.png
+    - assets/page-1/images/rectangle-95.png
+    - assets/page-1/images/rectangle-76.png
+    - assets/page-1/images/rectangle-94.png
+    - assets/page-1/images/rectangle-37.png
+    - assets/page-1/images/rectangle-91.png
+    - assets/page-1/images/rectangle-79.png
+    - assets/page-1/images/expandup-TSF.png
+    - assets/page-1/images/addring-QMV.png
+    - assets/page-1/images/rectangle-96.png
+    - assets/page-1/images/vector-23-Emm.png
+    - assets/page-1/images/rectangle-93.png
+    - assets/page-1/images/rectangle-4183.png
+    - assets/page-1/images/rectangle-80.png
+    - assets/page-1/images/expandup-Dtb.png
+    - assets/page-1/images/expandup-aj9.png
+    - assets/page-1/images/group-77-Xmq.png
+    - assets/page-1/images/rectangle-1-6xF.png
+    - assets/page-1/images/rectangle-85.png
+    - assets/page-1/images/menu.png
+    - assets/page-1/images/cell-kMm.png
+    - assets/page-1/images/group-91-kST.png
+    - assets/page-1/images/group-84-Uto.png
+    - assets/page-1/images/group-81-t4f.png
+    - assets/page-1/images/addring-M99.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/vector-KSo.png
+    - assets/page-1/images/rectangle-1-P9H.png
+    - assets/page-1/images/group-78-c1u.png
+    - assets/page-1/images/keys-icon-QRV.png
+    - assets/page-1/images/vector-rm5.png
+    - assets/page-1/images/keys-icon-czK.png
+    - assets/page-1/images/ellipse-93.png
+    - assets/page-1/images/expandup-95R.png
+    - assets/page-1/images/group-82-XoM.png
+    - assets/page-1/images/rectangle-92.png
+    - assets/page-1/images/rectangle-2.png
+    - assets/page-1/images/emoji-xJs.png
+    - assets/page-1/images/rectangle-82.png
+    - assets/page-1/images/group-92.png
+    - assets/page-1/images/rectangle-98.png
+    - assets/page-1/images/trash.png
+    - assets/page-1/images/forward-arrow.png
+    - assets/page-1/images/keys-icon-buR.png
+    - assets/page-1/images/rectangle-89.png
+    - assets/page-1/images/view-delivery.png
+    - assets/page-1/images/tasklist.png
+    - assets/page-1/images/rectangle-100.png
+    - assets/page-1/images/rectangle-83.png
+    - assets/page-1/images/reply-arrow.png
+    - assets/page-1/images/arrow-pointing-left.png
+    - assets/page-1/images/wifi-rQ7.png
+    - assets/page-1/images/rectangle-97.png
+    - assets/page-1/images/sent.png
+    - assets/page-1/images/ellipse-14-bg-LcP.png
+    - assets/page-1/images/rectangle-1-vB1.png
+    - assets/page-1/images/rectangle-4185-oFD.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
